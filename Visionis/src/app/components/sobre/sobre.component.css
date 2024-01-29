@@ -1,0 +1,36 @@
+@import url('../../../styles.css');
+
+.secao2{
+    max-width: 1190px;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .secao2 img{
+    width: 50%;
+  }
+  
+  .secao2-texto{
+    margin-left: 20px;
+    text-align: start;
+  }
+  .secao2-texto h2{
+    font-size: 4vh;
+  }
+  
+  .secao2-texto a{
+    background-color: aliceblue;
+    padding: 3px 6px;
+  }
+  
+  .secao2-texto h2,p,a{
+    margin-top: 20px;
+  }
+
+  @media (max-width: 900px){
+    .secao2{
+        flex-direction: column;
+    }
+  }

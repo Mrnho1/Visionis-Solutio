@@ -1,0 +1,38 @@
+@import url("../../../styles.css");
+
+@keyframes backgroundSlide {
+  from {
+    transform: scaleY(1);
+    transition: 5s ease;
+  }
+  to {
+    transform: scaleY(1.1);
+  }
+}
+
+.secao1 {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.ibb.co/mG8bFQn/waves-sound-water-black-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    animation: backgroundSlide 10s linear;
+    margin-bottom: 5vh;
+    opacity: 0.9;
+  }
+  
+  .secao1 h1 {
+    text-align: center;
+    font-size: 2vh;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  

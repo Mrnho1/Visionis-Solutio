@@ -1,0 +1,33 @@
+@import url('../../../styles.css');
+
+.secao3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .fundo-gif {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .ternaria-texto {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .ternaria-texto h1 {
+    font-size: 24px;
+  }
+  
+  .ternaria-texto button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

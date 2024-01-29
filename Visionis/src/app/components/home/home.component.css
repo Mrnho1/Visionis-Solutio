@@ -1,0 +1,24 @@
+@import url("../../../styles.css");
+
+
+
+main {
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+
+
+
+@media (min-width: 900px) {
+  .principal-texto,
+  .ternaria,
+  .quaternaria,
+  .quinternaria,
+  .sextenaria,
+  .secao2,
+  .secao3,
+  .secao4 {
+    visibility: hidden;
+  }
+}
